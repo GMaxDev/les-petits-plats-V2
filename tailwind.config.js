@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        anton: ['Anton', 'sans-serif'],
+        manrope: ['Manrope', 'sans-serif']
+      },
+      colors: {
+        'dark-yellow': '#FFD15B',
+      }
+    },
   },
   plugins: [],
 }
