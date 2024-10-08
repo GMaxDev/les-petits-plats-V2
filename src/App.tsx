@@ -9,9 +9,10 @@ const App: React.FC = () => {
   return (
     <div className="flex flex-col items-center bg-gray-100">
       <Header />
-      <div className="mx-10 mt-10">
-      <section id="searchFilterZone" className="flex flex-row justify-between w-full">
-        <div className="flex flex-row">
+      <div className="mx-10 mt-5">
+
+      <section id="searchFilterZone" className="flex flex-row items-center justify-between w-full">
+        <div className="flex flex-row gap-6 ">
           <DropdownMenu name="Ingrédients"/>
           <DropdownMenu name="Appareils"/>
           <DropdownMenu name="Ustensiles"/>
