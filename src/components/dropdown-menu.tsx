@@ -1,6 +1,4 @@
 import { useState } from "react";
-import arrow from "../assets/arrow-up.png";
-
 interface DropdownMenuProps {
   name: string;
   items: string[];
@@ -22,7 +20,7 @@ export default function DropdownMenu({ name, items, onSelect }: DropdownMenuProp
       >
         {name}
         <img
-          src={arrow}
+          src="public/assets/arrow-up.png"
           alt=""
           className={`size-4 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
         />
