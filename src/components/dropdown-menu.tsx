@@ -20,7 +20,7 @@ export default function DropdownMenu({ name, items, onSelect }: DropdownMenuProp
       >
         {name}
         <img
-          src="public/assets/arrow-up.png"
+          src="assets/arrow-up.png"
           alt=""
           className={`size-4 transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}
         />

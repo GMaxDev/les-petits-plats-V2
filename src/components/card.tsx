@@ -26,7 +26,7 @@ export default function Card({ recipe }: CardProps) {
       <span className="absolute px-4 py-1 right-4 top-4 bg-dark-yellow rounded-3xl">{recipe.time}min</span>
       <img
         className="rounded-t-2xl h-64 object-cover w-[380px]"
-        src={`public/assets/img_recipes/${recipe.image}`}
+        src={`assets/img_recipes/${recipe.image}`}
         alt=""
       />
       <div className="mx-6 font-manrope">
